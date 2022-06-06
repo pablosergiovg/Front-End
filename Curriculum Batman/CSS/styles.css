@@ -1,0 +1,62 @@
+header{
+    background-color: #E6E6E6;
+    margin: 0px;
+    padding: 14px;
+    text-align: center;
+}
+
+body{
+    background-color: white;
+}
+
+h1{    
+    background-color: #C4C4C4;
+    color: #005677;
+    letter-spacing: 10px;
+    margin: 0px;
+    padding: 8px;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+.espaciadoDeTitulo{
+    margin-top: 130px;
+}
+
+h2{    
+    background-color: #C4C4C4;
+    color: #005677;
+    letter-spacing: 10px;
+    margin-top: 26px;
+    padding-left: 10px;
+    word-spacing: 0px;
+}
+
+.listaDatosPersonales{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.fechas{
+    font-weight: bold;
+    margin-left: 24px;
+}
+
+.listasFechas{
+    margin-left: 64px;
+    margin-block: -15px;
+    list-style: none;
+}
+
+footer{
+    background-color: #005677;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+.contacto{  
+    display:inline;
+    padding-left:15px;
+    padding-right:15px;
+}

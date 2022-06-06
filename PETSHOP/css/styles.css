@@ -1,0 +1,71 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #3C2313;
+}
+
+.seccionIdiomaMoneda{
+    background-color: black;
+    color: white;
+}
+
+
+.seccionNavegacion{
+    background-color: #F0A83E;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.fondoBanner{
+    background-image: url(/img/banner.png);
+    background-repeat: no-repeat;
+    height: 409px;
+    text-align: center;
+}
+
+.pbanner1{
+    font-size: 30px;
+}
+
+.pbanner3{
+    background-color: #F0A83E;
+    color: white;
+}
+
+.seccionArticulos{
+    background-color: #FBFAF6;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.precios{
+    color: #F0A83E;
+}
+
+ul{
+    list-style: none;
+}
+
+.seccionContacto{
+    background-color: #3C2313;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pSeccionContactos{
+    font-size: 10px;
+}
+
+.iconosContacto{
+    font-size: 60px;
+}
+
+.seccionCreditos{
+    background-color: #F0A83E;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
