@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fondoVerde{
+    background-color: #1CD1B0;
+    font-size: 18px;
+    padding: 10px;
+}
+
+h1{
+    background-color: #00669F;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.div{
+    background-color: #00669F;
+    width: 80px;
+    text-align: center;
+}
