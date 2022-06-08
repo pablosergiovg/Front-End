@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+background-color: black;
+color: white;
+display: flex;
+justify-content: space-around;
+align-self:center;
+padding: 10px 0px;
+}
+
+.navegador{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+}
+
+li{
+    margin: 0, 10px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+
+sectionPrincipalMain{
+    display: flex;
+}
+
+.divPodioPizza{
+    background-color: white;
+    width: 490px;
+    height: 350px;
+}
