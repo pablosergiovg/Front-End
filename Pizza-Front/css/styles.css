@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-div{
+.divHeader{
 background-color: black;
 color: white;
 display: flex;
@@ -19,7 +19,7 @@ padding: 10px 0px;
 }
 
 li{
-    margin: 0, 10px;
+    margin: 0 10px;
 }
 
 body{
