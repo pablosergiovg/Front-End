@@ -34,6 +34,7 @@ body{
 }
 
 .liSeparacion{
+    flex-wrap: wrap;
     margin: 0px 10px;
 }
 
@@ -50,29 +51,154 @@ body{
 
 .fondoBanner{
     background-image: url(../img/banner.png);
-    background-repeat: no-repeat;
+    background-size: cover;
     height: 409px;
     text-align: center;
 }
 
-.pbanner1{
-    font-size: 30px;
+.divContenidoBanner{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 409px;
+    margin: 0px 0px 0px 50%;
 }
 
-.pbanner3{
+.spanBanner1{
+    background-color: white;
+    border-radius: 6px;
+    width: 370px;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+.spanbanner3{
     background-color: #F0A83E;
+    border-radius: 6px;
     color: white;
+    width: 140px;
+    padding: 12px 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+.divPataGrande{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.navProductosDestacados{
+    text-align: center;
+    font-size: 15px;
+    margin: 15px 0px 0px 0px;
+}
+
+.espacioEnNavegadores{
+    margin: 0px 10px;
 }
 
 .seccionArticulos{
-    background-color: #FBFAF6;
     font-size: 13px;
     font-weight: 500;
+    display: flex;
+    justify-content:center;
+}
+
+article{
+    margin: 50px 10px;
+}
+
+.divArticulo1{
+    background-image: url(/PETSHOP/img/churrasquito.png);
+    width: 265px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 0px 4px 0px;
+}
+
+.divArticulo2{
+    background-image: url(/PETSHOP/img/comedero.png);
+    width: 265px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 0px 4px 0px;
+}
+
+.divArticulo3{
+    background-image: url(/PETSHOP/img/Huesito.png);
+    width: 265px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 0px 4px 0px;
 }
 
 .precios{
     color: #F0A83E;
 }
+
+h3{
+    margin: 0px 0px 20px 0px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.divIngresarDatosDeContactos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pIngresarDatosDeContacto{
+    background-color: #3C2313;
+    font-size: 9px;
+    color: white;
+    width: 340px;
+    border-radius: 10px;
+    padding: 14px;
+    margin: 5px 0px;
+}
+
+.divBotonesContactanos{
+    display: flex;
+}
+
+.pResetear{
+    background-color: #8A8787;
+    color: white;
+    width: 110px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 14px;
+    margin: 5px 3px;
+}
+
+.pEnviar{
+    background-color: #F0A83E;
+    color: white;
+    width: 110px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 14px;
+    margin: 5px 3px;
+}
+
 
 .seccionContacto{
     background-color: #3C2313;
