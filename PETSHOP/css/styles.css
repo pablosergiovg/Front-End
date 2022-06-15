@@ -186,7 +186,7 @@ h3{
     border-radius: 20px;
     text-align: center;
     padding: 8px 14px;
-    margin: 5px 3px;
+    margin: 30px 3px;
 }
 
 .pEnviar{
@@ -196,9 +196,20 @@ h3{
     border-radius: 20px;
     text-align: center;
     padding: 8px 14px;
-    margin: 5px 3px;
+    margin: 30px 3px;
 }
 
+.seccionSuscripcion{
+    background-color: #F0A83E;
+}
+
+.divSuscripcion1{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    padding: 15px;
+    
+}
 
 .seccionContacto{
     background-color: #3C2313;
