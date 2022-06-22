@@ -6,7 +6,11 @@
     margin: 0px;
 }
 
-.sectIdioma{
+body{
+    color: #3C2313;
+}
+
+.secIdioma{
     background-color:#222222;
     color: white;
     display: flex;
@@ -15,7 +19,7 @@
     padding: 4px 60px 4px 60px;
 }
 
-.sectH1{
+.secH1{
     background-color: #F0A83E;
     display: flex;
     justify-content: space-between;
@@ -49,25 +53,135 @@ li{
     margin: 0px 10px 0px 0px;
 }
 
-.sectBanner{
+.secBanner{
     background-image: url(/PETSHOPFLEX/img/banner.png);
     background-size: cover;
     height: 409px;
     display: flex;
     justify-content: end;
     align-items: center;
+    margin: 0px 0px 15px 0px;
 }
 
 .divTextoBanner{
-    text-align: center;
     margin: 0px 20px 0px 0px;
+    width: 380px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.pPlacerTenerte{
+.pBanner{
     background-color: white;
-    color: #3C2313;
     font-size: 30px;
     border-radius: 6px;
     padding: 5px;
     margin: 0px 0px 5px 0px;
+}
+
+.spanBanner{
+    background-color: #F0A83E;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    width: 120px;
+    margin: 5px 0px 0px 0px;
+}
+
+.secDestacados{
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.divComAccCom{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.pEspaciadoComAccCom{
+    margin: 20px 5px 40px 5px;
+}
+
+.secArticulos{
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 0px 60px 0px;
+}
+
+.pPrecio{
+    color: #F0A83E;
+}
+
+.articulo1{
+    background-image: url(/PETSHOPFLEX/img/churrasquito.png);
+    width: 265px;
+    height: 312px;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 10px;
+    padding: 0px 0px 10px 0px;
+}
+
+.articulo2{
+    background-image: url(/PETSHOPFLEX/img/comedero.png);
+    width: 265px;
+    height: 312px;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 10px;
+    padding: 0px 0px 10px 0px;
+}
+
+.articulo3{
+    background-image: url(/PETSHOPFLEX/img/Huesito.png);
+    width: 265px;
+    height: 312px;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 10px;
+    padding: 0px 0px 10px 0px;
+}
+
+.secContactanos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    margin: 0px 0px 20px 0px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px 0px 10px 0px;
+}
+
+.pIngresarDatos1{
+    background-color: #3C2313;
+    font-size: 9px;
+    text-align: left;
+    color: white;
+    width: 340px;
+    border-radius: 10px;
+    padding: 14px;
+    margin: 5px 0px;
 }
