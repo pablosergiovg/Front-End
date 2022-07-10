@@ -185,3 +185,34 @@ h3{
     padding: 14px;
     margin: 5px 0px;
 }
+
+.divBotonesContactanos{
+    display: flex;
+}
+
+.pResetear{
+    background-color: #8A8787;
+    color: white;
+    width: 110px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 14px;
+    margin: 30px 3px;
+}
+
+.pEnviar{
+    background-color: #F0A83E;
+    color: white;
+    width: 110px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 14px;
+    margin: 30px 3px;
+}
+
+sec
+
+.divSuscribete{
+    color: white;
+    font-size: 20px;
+}
