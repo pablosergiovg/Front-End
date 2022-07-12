@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+
+/* AQUÍ COMIENZA EL HEADER */
+
+header{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 165px;
+    justify-content:space-around;
+    margin: 0px 7% 8px 7%;
+}
+
+header img{
+    width: 145.54px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+Header ul{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+Header a{
+    color: #242E52;
+    font-size: 0.813rem;
+    font-weight: 500;
+    margin: 0px 12px;
+}
+
+Header a:hover{
+    color: #9095aa;
+}
+
+.aNaranjaH{
+    background-color: rgb(242, 95, 58);
+    border-radius: 3.125rem;
+    box-shadow: 0rem 0.25rem 0.25rem rgba(242, 95, 58, 0.5);
+    color: white;
+    font-size: 0.824rem;
+    font-weight: 500;
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+}
+
+.aNaranjaH:hover{
+    background-color: rgb(250, 155, 131);
+    color: white;
+}
+
+.hamburguesa{
+    display: none;
+}
+
+/* AQUÍ TERMINA EL HEADER */
+/* AQUÍ COMIENZA ARTICULO SOBRE LA EMPRESA */
+
+article .graficoYh1{
+    align-items: center;
+    display: flex;
+    flex-flow: row-reverse;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 20px 8% 130px;
+    width: auto;
+}
+
+.graficoYh1 img{
+    width: 500px;
+}
+
+.graficoYh1 .sectionH1{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    width: 470px;
+}
+
+.sectionH1 h1{
+    align-items: center;
+    color:#232C50;
+    display: flex;
+    font-weight: 700;
+    font-size: 3.625rem;
+    letter-spacing: -0.035rem;
+    line-height: 4.125rem;
+    margin: 0px 0px 20px 0px;
+    width: 500px;
+}
+
+.sectionH1 p{
+    color: #B9B9C1;
+    margin: 0px 0px 20px 0px;
+    max-width: 356px;
+}
+
+.aNaranja{
+    background-color: rgb(242, 95, 58);
+    border-radius: 3.125rem;
+    box-shadow: 0rem 0.25rem 0.25rem #f25f3a80;
+    color: white;
+    font-size: 0.824rem;
+    font-weight: 500;
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+}
+
+.aNaranja:hover{
+    background-color: #fa9b83;
+}
+
+article .h2Ylistado{
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 20px 8% 130px;
+}
+
+.h2Ylistado .sectionH2{
+    max-width: 440px;
+    padding: 0px 30px 0px 0px;
+}
+
+.sectionH2 h2{
+    color:#232C50;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 2.8125rem;
+    letter-spacing: -0.035rem;
+    margin: 0px 0px 20px 0px;
+}
+
+.sectionH2 p{
+    color: #B9B9C1;
+    margin: 0px 0px 60px 0px;
+    width: 356px;
+}
+
+.h2Ylistado .listado{
+    display: flex;
+    flex-direction: column;
+}
+
+.listado div{
+    align-items: center;
+    display: flex;
+}
+
+.listado .Numero{
+    background-color: rgb(242, 95, 58);
+    border-radius: 3.125rem;
+    color: white;
+    font-weight: 700;
+    margin: 0px 20px 0px 0px;
+    padding: 0.75rem 1.5rem;
+    text-align: center;
+    width: 69px;
+}
+
+.listado h5{
+    color: #323851;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.listado p{
+    color: #B3B2B7;
+    padding: 0.4rem 0rem 2rem 5.4375rem;
+    width: 500px;
+}
+
+/* AQUÍ TERMINA ARTICULO SOBRE LA EMPRESA */
+/* AQUÍ COMIENZA LA SECCION SOBRE CLIENTES */
+
+.lesClientes{
+    text-align: center;
+}
+
+.lesClientes h2{
+    font-size: 2.4509rem;
+    color: rgb(36, 46, 83);
+    margin: 0px 0px 50px;
+}
+
+.lesClientes .clientes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 0px 25px 0px;
+}
+
+
+.clienteGenerico{
+    align-items: center;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    height: 219px;
+    margin: 30px 5px;
+    width: 450px;
+}
+
+.clienteGenericoC{
+    align-items: center;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    height: 219px;
+    margin: 30px 5px;
+    width: 450px;
+}
+
+.avatarClientes{
+    bottom: 35px;
+    position: relative;
+    width: 70px;
+}
+
+.nombreClientes{
+    bottom: 10px;
+    color: #3F4868;
+    font-size: 1.0045rem;
+    font-weight: 700;
+    margin: 0rem 0rem 0.5rem 0rem;
+    position: relative;
+    width: 12.5rem;
+}
+
+.pClientesLaterales{
+    color: #B9B9C1;
+    line-height: 1.5rem;
+    margin: 0.625rem 0rem 0rem 0rem;
+    width: 25.625rem;
+}
+
+.pClienteCentral{
+    color: #B9B9C1;
+    line-height: 1.5rem;
+    width: 23.75rem;
+}
+
+.carousel{
+    display: none;
+}
+
+/* AQUÍ TERMINA LA SECCION SOBRE CLIENTES */
+/* AQUÍ COMIENZA LA SECCCION ESLOGAN (NARANJA)*/
+
+.Eslogan{
+    align-items: center;
+    background-color: rgb(243, 97, 60);
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 0px 0px 0px;
+    padding: 50px 170px;
+}
+
+.Eslogan h2{
+    color: white;
+    font-size: 2.5rem;
+    width: 30rem;
+}
+
+.aBlanco{
+    background-color: white;
+    border-radius: 3.125rem;
+    box-shadow: 0rem 0.125rem 0.125rem rgba(0, 0, 0, 0.5);
+    color: rgb(242, 95, 58);
+    font-size: 0.824rem;
+    font-weight: 500;
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+}
+
+.aBlanco:hover{
+    color: rgb(255, 221, 221);
+}
+
+/* AQUÍ TERMINA LA SECCION ESLOGAN */
+/* AQUÍ COMIENZA EL FOOTER*/
+
+footer{
+    background-color: #1E1E26;
+    color: white;
+    padding: 40px 170px;
+}
+
+Footer .utilidad{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form button{
+    background-color: #f25f3a;
+    border-style: none;
+    border-radius: 3.125rem;
+    color: white;
+    font-size: 0.8238rem;
+    font-weight: 500;
+    padding: 0.875rem 0rem;
+    text-align: center;
+    width: 3.9375rem;
+}
+
+form button:hover{
+    background-color: #fa9b83;
+}
+
+form input{
+    border-radius: 20px;
+    border-style: none;
+    margin: 0px 5px 0px 0px;
+    padding: 14px 15px;
+    width: 200px;
+}
+
+.uls{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.5rem;
+    width: 430px;
+}
+
+.uls a{
+    color: white;
+    font-weight: 400;
+}
+
+.uls a:hover{
+    color: rgb(242,  95, 58);
+}
+
+.redesS{
+    align-items: flex-end;
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+}
+
+.redesS a:hover{
+    filter: invert(50%) sepia(67%) saturate(3045%) hue-rotate(338deg) brightness(99%) contrast(92%);
+}
+
+footer p{
+    bottom: 10px;
+    color: #8C8C94;
+    font-size: 0.7813rem;
+    position: relative;
+    text-align: right;
+}
+
+/*AQUÍ TERMINA EL FOOTER*/
+
+
+
+
+
+
+/*///////////////////////////////////////////*/
+
+
+
+
+
+
+@media(max-width:375px){
+
+    html{
+        font-size: 16px;
+    }
+
+    /*AQUÍ COMIENZA EL HEADER*/
+
+    header{
+        height: 100px;
+        justify-content:space-between;
+        margin: 0px 8% 0px 8%;
+    }
+    
+    header img{
+        width: 108px;
+    }
+    
+    Header ul{
+        display: none;
+    }
+    
+    .aNaranjaH{
+        display: none;
+    }
+    
+    .hamburguesa{
+        display: block;
+    }
+
+    .hamburguesa img{
+        filter: saturate();
+        width: 26px;
+    }
+
+    /*AQUÍ TERMINA EL HEADER*/
+    /* AQUÍ COMIENZA ARTICULO SOBRE LA EMPRESA */
+
+    article .graficoYh1{
+        margin: 0px 5% 0px 5%;
+        justify-content:none;
+        width: none;
+    }
+
+    .graficoYh1 img{
+        width: auto;
+    }
+
+    .graficoYh1 .sectionH1{
+        align-items: center;
+        flex-direction: none;
+        justify-content: none;
+        text-align: center;
+    }
+
+    .sectionH1 h1{
+        font-size: 2.5rem;
+        line-height: 3.2rem;
+        margin: 10px 0px 10px 0px;
+        width: auto;
+    }
+
+    .sectionH1 p{
+        line-height: 1.5rem;
+    }
+
+    .aNaranja{
+        margin: 10px 0px 0px 0px;
+        padding: 0.9rem 2rem;
+    }
+
+    article .h2Ylistado{
+        align-items: center;
+        justify-content:center;
+        margin: 85px 0px 30px 0px;
+        text-align: center;
+    }
+
+    .h2Ylistado .sectionH2{
+        justify-content:none;
+        margin: 10px 5% 50px 5%;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        width: auto;
+    }
+    
+    .sectionH2 h2{
+        font-size: 1.875rem;
+        line-height: 2.8125rem;
+        letter-spacing: -0.06rem;
+        margin: 0px 0px 15px 0px;
+        padding: 0% 5%;
+    }
+    
+    .sectionH2 p{
+        font-size: 0.9rem;
+        line-height: 1.65rem;
+        padding: 0% 5%;
+    }
+    
+    .listado div{
+        align-items: center;
+        padding: 0% 5% 0% 5%;
+
+    }
+
+    .listado .Numero{
+        color: white;
+        font-weight: 700;
+        margin: 0px 10px 0px 0px;
+        padding: 9.5px 24px;
+        text-align: center;
+        width: 69px;
+    }
+
+    .listado h5{
+        background-color: rgb(255, 239, 234);
+        font-size: 0.97rem;
+        left: 75px;
+        letter-spacing: -0.04rem;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .h5-1{
+        padding: 9.5px 54px 9.5px 21px;
+    }
+
+    .h5-2{
+        padding: 9.5px 100.5px 9.5px 21px;
+    }
+
+    .h5-3{
+        padding: 9.5px 43px 9.5px 21px;
+    }
+
+    .listado p{
+        font-size: 0.9rem;
+        line-height: 1.65rem;
+        padding: 12px 5% 50px 5%;
+        text-align: left;
+        width: auto;
+    }
+    
+    /* AQUÍ TERMINA ARTICULO SOBRE LA EMPRESA */
+    /* AQUÍ COMIENZA LA SECCION SOBRE CLIENTES */
+
+    .lesClientes{
+        padding: 0% 5% 0% 5%;
+    }
+
+    .lesClientes h2{
+        font-size: 1.9rem;
+        margin: 0px 0px 60px 0px;
+    }
+
+    .clienteGenerico{
+        display: none;
+    }
+
+    .clienteGenericoC{
+        display: flex;
+        flex-direction: column;
+        height: 219px;
+        margin: 30px 5px 20px;
+    }
+
+
+    .pClienteCentral{
+        font-size: 0.9rem;
+        padding: 0% 4%;
+        width: auto;
+    }
+
+    .carousel{
+        display: inline-block;
+        margin: 0px 0px 30px 0px;
+    }
+
+    input:checked {
+        background-color: rgb(242,  95, 58);
+    }
+
+    input[type="radio"]{
+        appearance: none;
+        border: 0.07rem solid rgb(242, 95, 58);
+        border-radius: 50%;
+        color: white;
+        height: 0.5rem;
+        margin: 2px;
+        width: 0.5rem;
+    }
+
+    /* AQUÍ TERMINA LA SECCION  SOBRE CLIENTES */
+    /* AQUÍ COMIENZA LA SECCCION ESLOGAN (NARANJA)*/
+
+    .Eslogan{
+        align-items: center;
+        flex-direction: column;
+        margin: 60px 0px 0px 0px;
+        padding: 96px 5%;
+        text-align: center;
+    }
+
+    .Eslogan h2{
+        font-size: 2.5rem;
+        margin: 0px 0px 25px 0px;
+        width: auto;
+    }
+
+    .aBlanco{
+        font-weight: 700;
+        padding: 0.9rem 2.2rem;
+    }
+
+/* AQUÍ TERMINA LA SECCION ESLOGAN */
+/* AQUÍ COMIENZA EL FOOTER*/
+
+    footer{
+        padding: 45px 5% 0px 5%;
+
+    }
+
+    Footer .utilidad{
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 8px 0% 35px 0%;
+    }
+
+    form button{
+        width: 75px;
+    }
+
+    form input{
+        margin: 0px 8px 0px 0px;
+        padding: 14px 35px;
+        width: auto;
+    }
+
+    .uls{
+        display: flex;
+        justify-content: space-around;
+        margin: 0px 0px 0px 0px;
+        position: relative;
+        right: 15px;
+    }
+
+    .uls a{
+        font-size: 0.85rem;
+    }
+
+    .utilidad .logoYredes{
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: auto;
+    }
+
+    .redesS{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 300px;
+    }
+    
+    .redesS a img{
+        margin: 0px 15px;
+        width: 32px;
+    }
+    
+    .logoBlanco{
+        margin: 10px 0px 40px 0px;
+        width: 160px;
+    }
+
+    footer p{
+        font-size: 0.7813rem;
+        position: relative;
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+/*AQUÍ TERMINA EL FOOTER*/
+}
